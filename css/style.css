@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("https://use.typekit.net/ljd6gdv.css");
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("fonts/HelveticaNeue-Bold.otf") format("opentype");
+    src: url("fonts/HelveticaNeue-Medium.otf") format("opentype");
+    src: url("fonts/HelveticaNeue-RegularItalic.otf") format("opentype");
+    src: url("fonts/HelveticaNeue-Regular.otf") format("opentype");
+
+}
+
+body {
+    padding: 5%;
+    font-family: "new-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    background-color: #ffffff;
+    color: #1f1f1f;
+    /*font-family: 'Plus Jakarta Sans', sans-serif; */
+}
+
+h1 {
+    color: #071438;
+    font-family: "new-frank", sans-serif;
+    font-weight: 700;
+    font-style: normal;    
+    font-size: 300%;
+}
+
+h2 {
+    font-family: Ndot-55;
+    font-size: 225%;
+}
+
+h3 {
+    font-family: Ndot-55;
+    font-size: 175%;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: #ffd500;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+
+/* Link Animation: https://css-tricks.com/css-link-hover-effects/ */
+a {
+    color: #000000;
+    text-decoration: none;
+    line-height: 30px;
+    padding-bottom: 3.5px;
+}
+
+
+a {
+    background:
+      linear-gradient(
+        to right,
+        rgb(54, 54, 54),
+        rgb(55, 55, 55)
+      ),
+      linear-gradient(
+        to right,
+        #A9C4E6,
+        #A9C4E6,
+        #A9C4E6
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+a:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+
+.line {
+             
+    /* Increase this as per requirement */
+    padding-bottom: 15px;
+}
+  
+.normal-underline {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+    border-radius: 2.5;
+}
